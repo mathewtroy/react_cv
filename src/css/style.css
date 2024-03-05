@@ -1,0 +1,212 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 110%;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #f3f3f3; */
+    padding: 40px;
+}
+
+
+.header-info {
+    text-align: left;
+}
+
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: #555;
+}
+
+span {
+    display: block;
+}
+
+.projects li {
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+}
+
+.main-content {
+    flex: 2; 
+}
+
+.sidebar {
+    flex: 1; 
+    background-color: #FFD700; 
+    padding: 20px;
+    color: black; 
+}
+
+.sidebar h3 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.sidebar p,
+.sidebar a,
+.sidebar ul {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.sidebar .refer {
+    text-decoration: underline;
+}
+
+.sidebar a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.sidebar a:hover {
+    text-decoration: underline; 
+}
+
+.occupation {
+    text-transform: uppercase;
+}
+
+.profile, .projects, .courses, .education, .volunteering {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.details {
+    margin-top: 180px;
+}
+
+.details, .links, .skills, .languages {
+    margin-bottom: 50px;
+}
+
+.languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages li {
+    margin-bottom: 10px;
+}
+
+.languages span {
+    display: block;
+}
+
+.languages img {
+    width: 140px; 
+    margin-left: 10px;
+}
+
+
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .contact-info p, footer .links a {
+    margin: 0;
+    padding: 5px;
+}
+
+footer .links a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+    
+    html{
+        font-size: 90%;
+    }
+   
+     .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        margin-bottom: 18px;
+    }
+
+    .sidebar {
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    html{
+        font-size: 80%;
+    }
+   
+     .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        margin-bottom: 20px;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    html {
+        font-size: 70%;
+    }
+     
+    .header-container {
+        padding: 20px;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    .sidebar {
+        padding: 10px;
+    }
+}
