@@ -55,15 +55,18 @@ const Sidebar = () => (
             <ul>
                 <li>
                     <span>Czech</span>
-                    <img src="images/middle.png" alt="Intermediate level"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/middle.png`}
+                    alt="Intermediate level"/>
                 </li>
                 <li>
                     <span>English</span>
-                    <img src="images/middle.png" alt="Intermediate level"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/middle.png`} 
+                    alt="Intermediate level"/>
                 </li>
                 <li>
                     <span>Russian</span>
-                    <img src="images/native.png" alt="Native level"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/native.png`}
+                    alt="Native level"/>
                 </li>
             </ul>
           </section>
