@@ -38,7 +38,7 @@ const Projects = () => (
                 target="_blank" rel="noreferrer noopener">
                 <strong>Website with travel packages </strong> 
               </a>
-                | HTML, CSS, JavaScript, MySQL, PHP. 
+                | HTML, CSS, JavaScript, MySQL, PHP 
               <span>
                 Designed and built a full-stack travel package website, 
                 implementing security measures against XSS, password hashing, 
@@ -51,7 +51,7 @@ const Projects = () => (
                 target="_blank" rel="noreferrer noopener">
                 <strong>EShop testing </strong> 
               </a>
-              | Java, ACTS, PCTgen. 
+              | Java, ACTS, PCTgen 
                 <span>Performed Selenium-based website testing.</span>
             </li>
 
@@ -60,7 +60,7 @@ const Projects = () => (
                 target="_blank" rel="noreferrer noopener">
                 <strong>Role-playing game 2D game </strong> 
               </a>
-              | Java, Swing, Maven. 
+              | Java, Swing, Maven 
               <span>
                 Developed a 2D role-playing game. Implemented 
                 enemy characters with multi-threaded programming, including 
@@ -74,7 +74,7 @@ const Projects = () => (
                 target="_blank" rel="noreferrer noopener">
                 <strong>Database Application </strong>
               </a> 
-              | Java Spring, PostgreSQL.
+              | Java Spring, PostgreSQL
               <span>
                Created a CRUD system for Travel Agency.
               </span>

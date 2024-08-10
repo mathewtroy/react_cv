@@ -46,6 +46,7 @@ const Sidebar = () => (
                 <li>Git</li>
                 <li>PostgreSQL</li>
                 <li>Linux</li>
+                <li>Figma</li>
                 <li>Enterprise Architect</li>
             </ul>
           </section>
