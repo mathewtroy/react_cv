@@ -8,6 +8,28 @@ const Projects = () => (
             <h3>September 2022 - Present:</h3>
 
             <li>
+              <a href="https://github.com/mathewtroy/geld-app" 
+                target="_blank" rel="noreferrer noopener">
+                <strong>Finance Mobile App</strong>
+              </a> 
+              | Kotlin, Jetpack Compose
+              <span>
+                Built a mobile app to manage personal finances with card and transaction management, receipt attachments, and category filtering.
+              </span>
+            </li>
+
+            <li>
+              <a href="https://github.com/mathewtroy/dsva" 
+                target="_blank" rel="noreferrer noopener">
+                <strong>Distributed System with Bully Algorithm</strong>
+              </a> 
+              | Java, RMI, REST, Bash
+              <span>
+                Simulated leader election using the Bully algorithm. Included RMI-based communication and REST interface with automation scripts.
+              </span>
+            </li>
+
+            <li>
               <a href="https://mathewtroy.github.io/whiteboard/" 
                 target="_blank" rel="noreferrer noopener">
                 <strong>React Application Whiteboard </strong>
@@ -62,9 +84,9 @@ const Projects = () => (
               </a>
               | Java, Swing, Maven 
               <span>
-                Developed a 2D role-playing game. Implemented 
-                enemy characters with multi-threaded programming, including 
-                animations, actions, and AI behavior such as walking, attacking, 
+                Developed 2D RPG. Implemented enemy characters with 
+                multi-threaded programming, including animations, actions, 
+                and AI behavior such as walking, attacking, 
                 and pursuing the main hero.
               </span>
             </li>
